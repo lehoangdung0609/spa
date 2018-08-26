@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7715effb9017441a85fb2c31e501f3c9" Name="Diagram1">
+        <EntityTypeShape EntityType="SPAModel.CHITIET_HOADON" Width="1.5" PointX="7.5" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.CHITIET_HOADON_DICHVU_DIEUTRI" Width="1.5" PointX="10" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.CHITIET_KHUYENMAI_DICHVU" Width="1.5" PointX="10.5" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.CHITIET_KHUYENMAI_SANPHAM" Width="1.5" PointX="10.5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.CHITIET_PHIEUNHAP" Width="1.5" PointX="7.5" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.DICHVU" Width="1.5" PointX="7.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.DVT" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.HOADON_DICHVU" Width="1.5" PointX="13" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.HOADONBAN" Width="1.5" PointX="5.25" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.KHUYENMAI" Width="1.5" PointX="8.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.LAN_DIEUTRI" Width="1.5" PointX="7.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.LOAISANPHAM" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.NGUOIDUNG" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.NHACUNGCAP" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.PHIEUNHAP" Width="1.5" PointX="5.25" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.PHUONG" Width="1.5" PointX="0.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.QUAN_HUYEN" Width="1.5" PointX="1.5" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.QUYEN" Width="1.5" PointX="0.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.SANPHAM" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.sysdiagram" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.THANHPHO" Width="1.5" PointX="1.5" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.THANHTOAN" Width="1.5" PointX="3" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.TRANGTHAI_SANPHAM" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SPAModel.TRANGTHAIHOADON" Width="1.5" PointX="3" PointY="30.25" IsExpanded="true" />
+        <AssociationConnector Association="SPAModel.FK_CHITIET__CO_CHITIE_HOADONBA" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_CHITIET__CO_SANPHA_SANPHAM" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_CHITIET__CO_DV_CTH_DICHVU" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_CHITIET__CO_HDDV_C_HOADON_D" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_CHITIET__CO_LDT_CT_LAN_DIEU" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_CHITIET__CO_DV_CTK_DICHVU" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_CHITIET__CO_KM_CHI_KHUYENMA" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_CHITIET__THUOC_KM__KHUYENMA" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_CHITIET__THUOC_SAN_SANPHAM" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_CHITIET__CO_CHITIE_PHIEUNHA" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_HOADON_D_CO_DV_HOA_DICHVU" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_SANPHAM_CO_DVT_SA_DVT" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_HOADON_D_LAP_HD_DV_NGUOIDUN" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_HOADONBA_MUA_HANG_NGUOIDUN" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_HOADONBA_THANHTOAN_THANHTOA" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_HOADONBA_TRANGTHAI_TRANGTHA" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_SANPHAM_CO_LSP_SA_LOAISANP" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_NGUOIDUN_CO_PHUONG_PHUONG" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_NGUOIDUN_CO_QUYEN__QUYEN" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_PHIEUNHA_LAP_PHIEU_NGUOIDUN" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_NHACUNGC_CO_PHUONG_PHUONG" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_PHUONG_CO_QUANHU_QUAN_HUY" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_QUAN_HUY_CO_QUANHU_THANHPHO" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.FK_SANPHAM_CO_TTSP_S_TRANGTHA" ManuallyRouted="false" />
+        <AssociationConnector Association="SPAModel.CHITIET_TRANGTHAI_LOAISANPHAM" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
